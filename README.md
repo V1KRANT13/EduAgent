@@ -183,3 +183,19 @@ uvicorn src.main:app --reload
         │
         ▼
    [ Database ]
+
+## Project Structure
+
+```text
+src/
+	main.py                # FastAPI app entrypoint
+	agents/                # Agent utilities (query builders, instruction loaders)
+	config/                # Settings and environment config
+	db/                    # Database models, session, and CRUD
+		models/              # SQLAlchemy models (User, Document, Image, etc.)
+	services/              # Business logic (auth, etc.)
+	utils/                 # Auth and helper utilities
+	api/
+		routers/             # FastAPI routers (auth, etc.)
+		schemas/             # Pydantic schemas
+```
