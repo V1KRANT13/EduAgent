@@ -184,6 +184,8 @@ uvicorn src.main:app --reload
         ▼
    [ Database ]
 
+```
+
 ## Project Structure
 
 ```text
