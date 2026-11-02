@@ -1,4 +1,4 @@
-# Edu-Backend | AI-Powered Learning Platform
+# EduAgent | AI-Powered Learning Platform
 
 An enterprise-ready, asynchronous FastAPI backend powering an AI-driven educational platform. Designed for high-throughput code validation, dynamic content synthesis, and automated learning workflows using Retrieval-Augmented Generation (RAG) and specialized LLM agents.
 
